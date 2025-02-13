@@ -4,6 +4,9 @@ cmake_project(
     name = "ladybird",
     srcs = glob(["**/*"]),
     preset = "default",
+    targets = [
+        "webworkerservice",
+    ],
 )
 
 python_binary(
